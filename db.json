@@ -1,0 +1,983 @@
+{
+  "aliases": [
+    {
+      "id": 1,
+      "plan_name": "Faker Plan",
+      "carrier_name": "Roundtrip Insurance Company",
+      "unmatched_plan_id": 2,
+      "master_plan_id": 1
+    }
+  ],
+  "unmatched-plans": [
+    {
+      "id": 1,
+      "plan_name": "Gold Plan",
+      "carrier_name": "1199 National Benefit Fund",
+      "company_id": "123456789",
+      "company_street_address": "330 West 42nd Street",
+      "company_city": "New York",
+      "company_state": "NY",
+      "company_zip": "10036",
+      "company_country": "US",
+      "company_phone": "+15555555555",
+      "effective_date": "2020-06-16T00:00:00.000Z",
+      "display_name": "1199 National Benefit Fund - Gold Plan"
+    },
+    {
+      "id": 2,
+      "plan_name": "Faker Plan",
+      "carrier_name": "Roundtrip Insurance Company",
+      "company_id": "123456789",
+      "company_street_address": "123 Main Street",
+      "company_city": "Richmond",
+      "company_state": "VA",
+      "company_zip": "23221",
+      "company_country": "US",
+      "company_phone": "+15555555555",
+      "effective_date": "2020-06-16T00:00:00.000Z",
+      "display_name": "Roundtrip Insurance Company - Faker Plan"
+    },
+    {
+      "id": 3,
+      "plan_name": "Ventura Highway Pla",
+      "carrier_name": "Roundtrip Insurance Company",
+      "company_id": "123456789",
+      "company_street_address": "123 Main Street",
+      "company_city": "Richmond",
+      "company_state": "VA",
+      "company_zip": "23221",
+      "company_country": "US",
+      "company_phone": "+15555555555",
+      "effective_date": "2020-06-16T00:00:00.000Z",
+      "display_name": "Roundtrip Insurance Company - Ventura Highway Plan"
+    },
+    {
+      "id": 4,
+      "plan_name": "Platinum Plan",
+      "carrier_name": "Aetna Better Health",
+      "company_id": "123456789",
+      "company_street_address": "124 Main Street",
+      "company_city": "Richmond",
+      "company_state": "VA",
+      "company_zip": "23221",
+      "company_country": "US",
+      "company_phone": "+15555555555",
+      "effective_date": "2020-06-16T00:00:00.000Z",
+      "display_name": "Aetna Better Health - Platinum Plan"
+    }
+  ],
+  "master-plans": [
+    {
+      "id": 1,
+      "name": "Roundtrip Insurance Company Faker Plan"
+    },
+    {
+      "id": 816,
+      "name": "1199SEIU Greater New York Benefit Fund"
+    },
+    {
+      "id": 817,
+      "name": "1199SEIU Greater New York for New Jersey Members"
+    },
+    {
+      "id": 818,
+      "name": "1199SEIU Home Care Benefit Fund"
+    },
+    {
+      "id": 819,
+      "name": "1199SEIU Home Health Aide Benefit Fund"
+    },
+    {
+      "id": 8195,
+      "name": "1199SEIU Licensed Practical Nurses Welfare Fund"
+    },
+    {
+      "id": 821,
+      "name": "1199SEIU National Benefit Fund"
+    },
+    {
+      "id": 822,
+      "name": "1199SEIU National Benefit Fund for Rochester Members"
+    },
+    {
+      "id": 8198,
+      "name": "1st Agency 1st Care Plan"
+    },
+    {
+      "id": 6986,
+      "name": "21st Century No-Fault"
+    },
+    {
+      "id": 8201,
+      "name": "AARP AARP Medicare Advantage HMO"
+    },
+    {
+      "id": 16695,
+      "name": "AARP AARP Medicare Advantage POS"
+    },
+    {
+      "id": 16696,
+      "name": "AARP AARP Medicare Advantage PPO"
+    },
+    {
+      "id": 7990,
+      "name": "AARP AARP Medicare Complete (HMO)"
+    },
+    {
+      "id": 16701,
+      "name": "AARP AARP MedicareComplete SecureHorizons"
+    },
+    {
+      "id": 16698,
+      "name": "AARP AARP Medicare Supplement"
+    },
+    {
+      "id": 16702,
+      "name": "AARP AARP Personal Health Insurance Plan"
+    },
+    {
+      "id": 8210,
+      "name": "AARP High Deductible"
+    },
+    {
+      "id": 8211,
+      "name": "AARP Preventative and Hospital Care"
+    },
+    {
+      "id": 22923,
+      "name": "AARP (UHC) AARP/UHC Medicare Complete"
+    },
+    {
+      "id": 16705,
+      "name": "Absolute Total Care Healthy Connections Prime (MMP)"
+    },
+    {
+      "id": 8213,
+      "name": "Absolute Total Care Medicaid - SC"
+    },
+    {
+      "id": 5495,
+      "name": "Access Medicare (NY) Access Medicare"
+    },
+    {
+      "id": 8215,
+      "name": "Accountable Health Plan of Ohio PPO"
+    },
+    {
+      "id": 8217,
+      "name": "ACE EyeMed Select Plan"
+    },
+    {
+      "id": 8219,
+      "name": "ACE Workers' Compensation"
+    },
+    {
+      "id": 24591,
+      "name": "Administrative Concepts Administrative Concepts, Inc."
+    },
+    {
+      "id": 3041,
+      "name": "Advantage Health Advantage HMO"
+    },
+    {
+      "id": 3042,
+      "name": "Advantage Health Advantage HMO Sho Boone"
+    },
+    {
+      "id": 3044,
+      "name": "Advantage Health Advantage HMO Sho Hendricks"
+    },
+    {
+      "id": 3045,
+      "name": "Advantage Health Advantage HMO Sho Johnson"
+    },
+    {
+      "id": 3050,
+      "name": "Advantage Health Advantage HMO St. Francis Health Network"
+    },
+    {
+      "id": 3051,
+      "name": "Advantage Health Advantage Medicaid"
+    },
+    {
+      "id": 3054,
+      "name": "Advantage Health Advantage Medicare HMO (Community ProHealth Network)"
+    },
+    {
+      "id": 3052,
+      "name": "Advantage Health Advantage Medicare HMO - Franciscan St Francis Health Network"
+    },
+    {
+      "id": 3055,
+      "name": "Advantage Health Advantage Medicare HMO -St. Joseph Regional Medical Center (Select Health)"
+    },
+    {
+      "id": 3053,
+      "name": "Advantage Health Advantage Medicare HMO - St. Vincent Health"
+    },
+    {
+      "id": 3057,
+      "name": "Advantage Health Advantage Medicare SNP - Community ProHealth Network"
+    },
+    {
+      "id": 3058,
+      "name": "Advantage Health Advantage Medicare SNP - Eskenazi Health Services Network"
+    },
+    {
+      "id": 3059,
+      "name": "Advantage Health Advantage Medicare SNP - Franciscan St Francis Health Network"
+    },
+    {
+      "id": 3060,
+      "name": "Advantage Health Advantage Medicare SNP - St. Vincent Health"
+    },
+    {
+      "id": 8222,
+      "name": "Advantica Select"
+    },
+    {
+      "id": 8223,
+      "name": "Advantica Select Plus 125"
+    },
+    {
+      "id": 8224,
+      "name": "Advantica Select Plus 150"
+    },
+    {
+      "id": 16713,
+      "name": "Advantica Vision Care Provider"
+    },
+    {
+      "id": 12038,
+      "name": "Advent Health Concert Health Plan"
+    },
+    {
+      "id": 12039,
+      "name": "Advent Health County of Volusia"
+    },
+    {
+      "id": 12040,
+      "name": "Advent Health Florida Hospital DeLand"
+    },
+    {
+      "id": 12041,
+      "name": "Advent Health Florida Hospital Fish Memorial"
+    },
+    {
+      "id": 12042,
+      "name": "Advent Health Florida Hospital Flagler"
+    },
+    {
+      "id": 12045,
+      "name": "Advent Health Florida Hospital Memorial Medical Center"
+    },
+    {
+      "id": 12046,
+      "name": "Advent Health Florida Hospital Waterman Employee Health Plan"
+    },
+    {
+      "id": 12047,
+      "name": "Advent Health Orthopaedic Clinic of Daytona Beach"
+    },
+    {
+      "id": 16714,
+      "name": "Adventist Health Adventist Health Employee Health Plan"
+    },
+    {
+      "id": 8227,
+      "name": "Advocate Health Care Advocate Centered EPO"
+    },
+    {
+      "id": 2499,
+      "name": "Advocate Health Care Advocate Centered HMO"
+    },
+    {
+      "id": 2501,
+      "name": "Advocate Health Care Humana PPO/DRP"
+    },
+    {
+      "id": 8231,
+      "name": "Aetna ActiveCare 1-HD"
+    },
+    {
+      "id": 8232,
+      "name": "Aetna ActiveCare 2"
+    },
+    {
+      "id": 6019,
+      "name": "Aetna ActiveCare Select"
+    },
+    {
+      "id": 24601,
+      "name": "Aetna Aetna Affordable Health Choice"
+    },
+    {
+      "id": 24397,
+      "name": "Aetna Aetna Affordable Health Choice Indemnity"
+    },
+    {
+      "id": 16721,
+      "name": "Aetna Aetna Affordable Health Choices limited benefits insurance plan (SRC only)"
+    },
+    {
+      "id": 8235,
+      "name": "Aetna Aetna Basic HMO (available in CA only)"
+    },
+    {
+      "id": 6022,
+      "name": "Aetna Aetna Bronze HNOption"
+    },
+    {
+      "id": 16723,
+      "name": "Aetna Aetna Choice POS (Aetna HealthFund)"
+    },
+    {
+      "id": 16724,
+      "name": "Aetna Aetna Choice POS II (Aetna HealthFund)"
+    },
+    {
+      "id": 8238,
+      "name": "Aetna Aetna Choice POS II on the Altius Network"
+    },
+    {
+      "id": 16727,
+      "name": "Aetna Aetna Choice® POS II (Open Access)"
+    },
+    {
+      "id": 8239,
+      "name": "Aetna Aetna Choice® POS (Open Access)"
+    },
+    {
+      "id": 6028,
+      "name": "Aetna Aetna DC Bronze, Silver and Gold HMO"
+    },
+    {
+      "id": 6029,
+      "name": "Aetna Aetna DC Bronze, Silver and Gold HNOnly"
+    },
+    {
+      "id": 6030,
+      "name": "Aetna Aetna DC Bronze, Silver and Gold OAMC"
+    },
+    {
+      "id": 6031,
+      "name": "Aetna Aetna Freedom 10"
+    },
+    {
+      "id": 16728,
+      "name": "Aetna Aetna Freedom 10 (NJ)"
+    },
+    {
+      "id": 8242,
+      "name": "Aetna Aetna Freedom 15"
+    },
+    {
+      "id": 8243,
+      "name": "Aetna Aetna Freedom 1525"
+    },
+    {
+      "id": 16730,
+      "name": "Aetna Aetna Freedom 1525 (NJ)"
+    },
+    {
+      "id": 16729,
+      "name": "Aetna Aetna Freedom 15 (NJ)"
+    },
+    {
+      "id": 8244,
+      "name": "Aetna Aetna Freedom 2030"
+    },
+    {
+      "id": 16731,
+      "name": "Aetna Aetna Freedom 2030 (NJ)"
+    },
+    {
+      "id": 6035,
+      "name": "Aetna Aetna Freedom 2035"
+    },
+    {
+      "id": 16732,
+      "name": "Aetna Aetna Freedom 2035 (NJ)"
+    },
+    {
+      "id": 6036,
+      "name": "Aetna Aetna Gold HNOption"
+    },
+    {
+      "id": 16740,
+      "name": "Aetna Aetna HealthFund® Aetna Health Network Only (Open Access)"
+    },
+    {
+      "id": 8254,
+      "name": "Aetna Aetna HealthFund® Aetna Health Network Option (Open Access)"
+    },
+    {
+      "id": 8251,
+      "name": "Aetna Aetna HealthFund CDHP"
+    },
+    {
+      "id": 24398,
+      "name": "Aetna Aetna HealthFund Health Reimbursement Arrangement (HRA)"
+    },
+    {
+      "id": 24399,
+      "name": "Aetna Aetna HealthFund Health Savings Account (HSA)"
+    },
+    {
+      "id": 16739,
+      "name": "Aetna Aetna HealthFund HMO (available in CA only)"
+    },
+    {
+      "id": 6037,
+      "name": "Aetna Aetna Health Network Only (Open Access)"
+    },
+    {
+      "id": 8247,
+      "name": "Aetna Aetna Health Network Only (Open Access) on the Altius Network"
+    },
+    {
+      "id": 6039,
+      "name": "Aetna Aetna Health Network Option (Open Access)"
+    },
+    {
+      "id": 16736,
+      "name": "Aetna Aetna Health Network Option (Open Access) on the Altius Network"
+    },
+    {
+      "id": 8250,
+      "name": "Aetna Aetna Health Savings Account"
+    },
+    {
+      "id": 16742,
+      "name": "Aetna Aetna Leap Basic - Banner"
+    },
+    {
+      "id": 6046,
+      "name": "Aetna Aetna Leap Everyday"
+    },
+    {
+      "id": 6047,
+      "name": "Aetna Aetna MD Bronze, Silver and Gold Open Access Health Network Only"
+    },
+    {
+      "id": 8258,
+      "name": "Aetna Aetna Medicare Choice Plan (PPO)"
+    },
+    {
+      "id": 24400,
+      "name": "Aetna Aetna Medicare Plus Plan (PPO)"
+    },
+    {
+      "id": 24401,
+      "name": "Aetna Aetna Medicare Prime Plan (HMO)"
+    },
+    {
+      "id": 16746,
+      "name": "Aetna Aetna Medicare Select Plan (HMO)"
+    },
+    {
+      "id": 6049,
+      "name": "Aetna Aetna Medicare Standard Plan (PPO)"
+    },
+    {
+      "id": 8261,
+      "name": "Aetna Aetna Medicare Syracuse Plan (PPO)"
+    },
+    {
+      "id": 16749,
+      "name": "Aetna Aetna Medicare Value Plan (PPO)"
+    },
+    {
+      "id": 16750,
+      "name": "Aetna Aetna NY Tri-State EPO"
+    },
+    {
+      "id": 8264,
+      "name": "Aetna Aetna Open Access Managed Choice - NY Tri-State PPO"
+    },
+    {
+      "id": 16752,
+      "name": "Aetna Aetna PPO"
+    },
+    {
+      "id": 16753,
+      "name": "Aetna Aetna Premier Care Network Plus"
+    },
+    {
+      "id": 16754,
+      "name": "Aetna Aetna Select"
+    },
+    {
+      "id": 16755,
+      "name": "Aetna Aetna Signature Administrators (PPO)"
+    },
+    {
+      "id": 6057,
+      "name": "Aetna Aetna Silver $15 Copay $5500 HNOnly"
+    },
+    {
+      "id": 16756,
+      "name": "Aetna Aetna Value Network HMO (available in CA and NV only)"
+    },
+    {
+      "id": 22950,
+      "name": "Aetna Aetna Walmart HRA"
+    },
+    {
+      "id": 22951,
+      "name": "Aetna Aetna Walmart HSA"
+    },
+    {
+      "id": 16757,
+      "name": "Aetna Aetna Whole Health - MemorialCare"
+    },
+    {
+      "id": 16642,
+      "name": "Aetna Aetna Whole HealthSM"
+    },
+    {
+      "id": 16760,
+      "name": "Aetna Aexcel Aetna Select"
+    },
+    {
+      "id": 16761,
+      "name": "Aetna Aexcel Aetna Select (Open Access)"
+    },
+    {
+      "id": 8274,
+      "name": "Aetna Aexcel Choice POS II"
+    },
+    {
+      "id": 6063,
+      "name": "Aetna Aexcel Choice POS II (Aetna HealthFund)"
+    },
+    {
+      "id": 16764,
+      "name": "Aetna Aexcel Elect Choice EPO"
+    },
+    {
+      "id": 6065,
+      "name": "Aetna Aexcel Elect Choice EPO (Open Access)"
+    },
+    {
+      "id": 6066,
+      "name": "Aetna Aexcel Managed Choice POS"
+    },
+    {
+      "id": 8279,
+      "name": "Aetna Aexcel Managed Choice POS (Open Access)"
+    },
+    {
+      "id": 16768,
+      "name": "Aetna Aexcel Open Access Aetna Select (Aetna HealthFund)"
+    },
+    {
+      "id": 6069,
+      "name": "Aetna Aexcel Open Access Elect Choice (Aetna HealthFund)"
+    },
+    {
+      "id": 8282,
+      "name": "Aetna Aexcel Open Access Managed Choice POS (HealthFund)"
+    },
+    {
+      "id": 6071,
+      "name": "Aetna Aexcel Plus Aetna Select"
+    },
+    {
+      "id": 6072,
+      "name": "Aetna Aexcel Plus Aetna Select (Open Access)"
+    },
+    {
+      "id": 16773,
+      "name": "Aetna Aexcel Plus Choice POS II"
+    },
+    {
+      "id": 16774,
+      "name": "Aetna Aexcel Plus Choice POS II (Aetna HealthFund)"
+    },
+    {
+      "id": 8287,
+      "name": "Aetna Aexcel Plus Elect Choice EPO"
+    },
+    {
+      "id": 8289,
+      "name": "Aetna Aexcel Plus Managed Choice POS"
+    },
+    {
+      "id": 16779,
+      "name": "Aetna Aexcel Plus Open Access Aetna Select (Aetna HealthFund)"
+    },
+    {
+      "id": 6080,
+      "name": "Aetna Aexcel Plus Open Access Elect Choice (Aetna HealthFund)"
+    },
+    {
+      "id": 16781,
+      "name": "Aetna Aexcel Plus Open Access Managed Choice POS (HealthFund)"
+    },
+    {
+      "id": 16782,
+      "name": "Aetna Aexcel Plus PPO"
+    },
+    {
+      "id": 16783,
+      "name": "Aetna Aexcel Plus PPO (Aetna HealthFund)"
+    },
+    {
+      "id": 8297,
+      "name": "Aetna Aexcel PPO (Aetna HealthFund)"
+    },
+    {
+      "id": 6086,
+      "name": "Aetna AK Bronze $20 Copay PD"
+    },
+    {
+      "id": 6087,
+      "name": "Aetna AK Bronze Ded. Only HSA PD"
+    },
+    {
+      "id": 6088,
+      "name": "Aetna AK Catastrophic 100% PD"
+    },
+    {
+      "id": 6089,
+      "name": "Aetna AK Silver $10 Copay PD"
+    },
+    {
+      "id": 6090,
+      "name": "Aetna AK Silver $5 Copay 2750 PD"
+    },
+    {
+      "id": 6091,
+      "name": "Aetna AlaskaCare - Employee"
+    },
+    {
+      "id": 16791,
+      "name": "Aetna AlaskaCare Health Plans"
+    },
+    {
+      "id": 16790,
+      "name": "Aetna AlaskaCare - Retiree Legacy Plan"
+    },
+    {
+      "id": 16794,
+      "name": "Aetna AZ Aetna Leap - Banner Health Network"
+    },
+    {
+      "id": 16795,
+      "name": "Aetna AZ Aetna Whole Health - Arizona Care Network"
+    },
+    {
+      "id": 6102,
+      "name": "Aetna AZ Banner Health Network Bronze HSA PD"
+    },
+    {
+      "id": 6108,
+      "name": "Aetna AZ Marketplace: Banner Health Network Bronze $20 Copay"
+    },
+    {
+      "id": 6109,
+      "name": "Aetna AZ Marketplace: Banner Health Network Catastrophic 100%"
+    },
+    {
+      "id": 6110,
+      "name": "Aetna AZ Marketplace: Banner Health Network Gold $5 Copay"
+    },
+    {
+      "id": 6111,
+      "name": "Aetna AZ Marketplace: Banner Health Network Silver $10 Copay"
+    },
+    {
+      "id": 6112,
+      "name": "Aetna AZ Marketplace: Banner Health Network Silver $5 Copay 2750"
+    },
+    {
+      "id": 8309,
+      "name": "Aetna AZ Medicare Individual Arizona Value HMO Plan"
+    },
+    {
+      "id": 8310,
+      "name": "Aetna Banner Choice POS II Multi Tier"
+    },
+    {
+      "id": 16799,
+      "name": "Aetna Behavioral Health Program"
+    },
+    {
+      "id": 16800,
+      "name": "Aetna CA Aetna Whole Health"
+    },
+    {
+      "id": 6116,
+      "name": "Aetna CA Aetna Whole Health - Hill Physicians & Mercy Medical Group"
+    },
+    {
+      "id": 6119,
+      "name": "Aetna CA Aetna Whole Health - SCCIPA"
+    },
+    {
+      "id": 8317,
+      "name": "Aetna CA Medicare HMO Orange/San Bernadino/Losa Angeled CA Prime Plan"
+    },
+    {
+      "id": 16805,
+      "name": "Aetna CA Medicare HMO Orange/San Bernadino/Los Angeles CA Prime Plan"
+    },
+    {
+      "id": 16806,
+      "name": "Aetna CO Aetna Whole Health - Colorado Front Range"
+    },
+    {
+      "id": 6122,
+      "name": "Aetna CO Medicare HMO Denver CO Prime Plan"
+    },
+    {
+      "id": 16808,
+      "name": "Aetna CO Medicare PPO Denver CO Prime Plan"
+    },
+    {
+      "id": 6015,
+      "name": "Aetna Cornell Program for Healthy Living"
+    },
+    {
+      "id": 8321,
+      "name": "Aetna CT Aetna Whole Health - Connecticut Preferred Health Network"
+    },
+    {
+      "id": 6128,
+      "name": "Aetna CT Bronze $20 Copy PD"
+    },
+    {
+      "id": 6129,
+      "name": "Aetna CT Bronze Deductible Only HSA PD"
+    },
+    {
+      "id": 6130,
+      "name": "Aetna CT Gold Copay $5 PD"
+    },
+    {
+      "id": 6131,
+      "name": "Aetna CT Silver $10 Copay 2750 PD"
+    },
+    {
+      "id": 6132,
+      "name": "Aetna CT Silver $10 Copay PD"
+    },
+    {
+      "id": 6133,
+      "name": "Aetna DC Bronze HNOnly"
+    },
+    {
+      "id": 6134,
+      "name": "Aetna DC Bronze OAMC"
+    },
+    {
+      "id": 6135,
+      "name": "Aetna DC Gold HNOnly"
+    },
+    {
+      "id": 6136,
+      "name": "Aetna DC Gold OAMC"
+    },
+    {
+      "id": 6137,
+      "name": "Aetna DC HNOnly 1500"
+    },
+    {
+      "id": 6138,
+      "name": "Aetna DC HNOnly 2000"
+    },
+    {
+      "id": 6139,
+      "name": "Aetna DC HNOnly 250A"
+    },
+    {
+      "id": 6140,
+      "name": "Aetna DC HNOnly 500A"
+    },
+    {
+      "id": 6141,
+      "name": "Aetna DC HNOnly 70%"
+    },
+    {
+      "id": 6142,
+      "name": "Aetna DC HNOnly 90%"
+    },
+    {
+      "id": 6143,
+      "name": "Aetna DC HNOption"
+    },
+    {
+      "id": 6145,
+      "name": "Aetna DC Silver HNOnly"
+    },
+    {
+      "id": 6146,
+      "name": "Aetna DC Silver OAMC"
+    },
+    {
+      "id": 6147,
+      "name": "Aetna DE Bronze $20 Copay HNOnly PD"
+    },
+    {
+      "id": 6148,
+      "name": "Aetna DE Bronze $20 Copay PPO PD"
+    },
+    {
+      "id": 6149,
+      "name": "Aetna DE Bronze Ded. Only HSA HNOnly PD"
+    },
+    {
+      "id": 6150,
+      "name": "Aetna DE Bronze Ded. Only HSA PPO PD"
+    },
+    {
+      "id": 6151,
+      "name": "Aetna DE Gold $5 copay HNOnly PD"
+    },
+    {
+      "id": 6152,
+      "name": "Aetna DE Gold $5 Copay PPO PD"
+    },
+    {
+      "id": 6156,
+      "name": "Aetna DE Marketplace: Gold $10 Copay HNOnly"
+    },
+    {
+      "id": 6157,
+      "name": "Aetna DE Marketplace: Gold $10 Copay PPO"
+    },
+    {
+      "id": 6162,
+      "name": "Aetna DE Silver $10 Copay HNOnly PD"
+    },
+    {
+      "id": 6163,
+      "name": "Aetna DE Silver $10 Copay PPO PD"
+    },
+    {
+      "id": 6164,
+      "name": "Aetna DE Silver $5 Copay 2750 HNOnly PD"
+    },
+    {
+      "id": 6165,
+      "name": "Aetna DE Silver $5 Copay 2750 PPO PD"
+    },
+    {
+      "id": 8322,
+      "name": "Aetna Elect Choice EPO"
+    },
+    {
+      "id": 16813,
+      "name": "Aetna Elect Choice EPO (Open Access)"
+    },
+    {
+      "id": 16815,
+      "name": "Aetna Employee Assistance Program"
+    },
+    {
+      "id": 6170,
+      "name": "Aetna FL Bronze $20 Copay Savings Plus HMO"
+    },
+    {
+      "id": 6171,
+      "name": "Aetna FL Bronze Ded. Only HSA MC"
+    },
+    {
+      "id": 6172,
+      "name": "Aetna FL Bronze Ded. Only HSA Savings Plus HMO"
+    },
+    {
+      "id": 6173,
+      "name": "Aetna FL Catastrophic 100% Savings Plus HMO"
+    },
+    {
+      "id": 22952,
+      "name": "Aetna FL: Coventry Medicare Summit Plan (HMO SNP)"
+    },
+    {
+      "id": 6174,
+      "name": "Aetna FL Gold $10 Copay Savings Plus HMO"
+    },
+    {
+      "id": 6176,
+      "name": "Aetna FL Marketplace: Bronze Ded. Only HSA Savings Plus HMO"
+    },
+    {
+      "id": 6179,
+      "name": "Aetna FL Marketplace: Silver $10 Copay 2750 Savings Plus HMO"
+    },
+    {
+      "id": 6181,
+      "name": "Aetna FL Sarasota/Manatee Bronze $20 Copay Savings Plus HMO"
+    },
+    {
+      "id": 6182,
+      "name": "Aetna FL Sarasota/Manatee Bronze Ded. Only HSA Savings Plus HMO"
+    },
+    {
+      "id": 6183,
+      "name": "Aetna FL Sarasota/Manatee Catastrophic 100% Savings Plus HMO"
+    },
+    {
+      "id": 6185,
+      "name": "Aetna FL Sarasota/Manatee Silver $10 Copay Savings Plus HMO"
+    },
+    {
+      "id": 6186,
+      "name": "Aetna FL Sarasota/Manatee Silver $5 Copay 2750 Savings Plus HMO"
+    },
+    {
+      "id": 6187,
+      "name": "Aetna FL Silver $10 Copay Savings Plus HMO"
+    },
+    {
+      "id": 6188,
+      "name": "Aetna FL Silver $5 Copay 2750 Savings Plus HMO"
+    },
+    {
+      "id": 24477,
+      "name": "Aetna Foreign Service Benefit Plan"
+    },
+    {
+      "id": 6189,
+      "name": "Aetna GA Bronze $15 Copay"
+    },
+    {
+      "id": 6190,
+      "name": "Aetna GA Bronze Ded. Only HSA"
+    },
+    {
+      "id": 6191,
+      "name": "Aetna GA Catastrophic 100%"
+    },
+    {
+      "id": 6192,
+      "name": "Aetna GA Gold $10 Copay HMO"
+    },
+    {
+      "id": 6193,
+      "name": "Aetna GA Silver $10 Copay"
+    },
+    {
+      "id": 6194,
+      "name": "Aetna GA Silver $5 Copay 2750"
+    },
+    {
+      "id": 16816,
+      "name": "Aetna Golden Choice Plan (PPO)"
+    },
+    {
+      "id": 16817,
+      "name": "Aetna Golden Medicare Plan (HMO)"
+    },
+    {
+      "id": 6196,
+      "name": "Aetna HCA Well Care (Levels 1, 2 & 3)"
+    },
+    {
+      "id": 24602,
+      "name": "Aetna Better Health Platinum Plan"
+    }
+  ]
+}
