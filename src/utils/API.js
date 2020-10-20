@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // const path = "http://localhost:5000";
-const path = "https://json-server-green.vercel.app/db.json";
+// const path = "https://json-server-green.vercel.app/db.json";
+const path = "https://thawing-island-08492.herokuapp.com";
 
 export default {
 
