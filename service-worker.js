@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/roundtrip-challenge/precache-manifest.1a067d7ce0e015cc473a38da785deba5.js"
+  "/roundtrip-challenge/precache-manifest.e25d5a5957c7b315c79574740566b851.js"
 );
 
 self.addEventListener('message', (event) => {
